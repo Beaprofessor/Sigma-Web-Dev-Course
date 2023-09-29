@@ -1,0 +1,3 @@
+Hello guys , here we had get to know about the useful vs code extensions , which are necessary for making the vs code interactive so we can focus on more and we had also created the first website of our using html and we had also linked the css single property and js one function here.
+
+Thanks 
