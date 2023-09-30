@@ -1,0 +1,55 @@
+Hey guys , welcome back to our another day , Day05 -> Today we have learned about the Image , Lists and the Table.....
+
+
+for Image ->>
+<img src="train.jpg" alt=" ">
+
+
+for lists ->>>
+There are two types of lists =>>
+Unordered List
+Ordered List
+
+..Unordered List..-->>
+<ul>
+<li>Harry</li>
+<li>Harry</li>
+<li>Harry</li>
+</ul>
+
+..Ordered List..-->>
+<ol>
+<li>Harry</li>
+<li>Harry</li>
+<li>Harry</li>
+</ol>
+
+
+
+And last for the table;-->> 
+<table>
+<thead>
+<th>Table head , it is used to put the heading of the table like NAME, AGE etc.</th>
+</thead>
+
+<tbody>
+<td>Table Data , it is used to put the data in the table </td>
+</tbody>
+
+<tfoot>
+Table footer is used at the end of the table
+</tfoot>
+</table>
+
+
+
+So guys today we have learned about the img tag , lists and tables....
+
+Let's LEARN , GROW and EARN TOGETHER.....!!!!!!!!!
+
+Day05 Completed...!!!!!!
+.........
+.......
+....
+..
+.
