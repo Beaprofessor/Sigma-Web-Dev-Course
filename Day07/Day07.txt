@@ -1,0 +1,82 @@
+Hey guys , welcome back to our another day , Day07 -> Today we have learned about the HTML Forms.....
+
+1.HTML Input Types
+
+A.Text Input
+<input type="text" name="username" placeholder="Enter your username">
+
+B.Password Input
+<input type="password" name="password" placeholder="Enter your password">
+
+C.Radio Buttons
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+
+D.Checkbox
+<input type="checkbox" id="subscribe" name="subscribe" value="yes">
+<label for="subscribe">Subscribe to newsletter</label>
+
+
+
+
+2. Textarea and Select
+
+
+A.The Textarea Element
+<textarea name="comment" rows="4" cols="50">
+      Enter your comment here...
+</textarea>
+
+
+
+B.The Select Element
+<select name="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+</select>
+
+
+
+3. More On Forms
+
+Common Attributes..
+-->>
+A. Action...
+  <form action="/submit.php" method="POST">
+  </form>
+
+B. Method
+   <form action="/submit.php" method="POST">
+</form>
+
+C. Name
+   <input type="text" name="username">
+
+
+NEW ONE'S....
+
+A.PlaceHolder
+<input type="text" placeholder="Enter your username">
+
+B.Required
+<input type="text" required>
+
+C.Autofocus
+<input type="text" required>
+
+
+
+
+So guys today we have learned about the HTML Forms....And abhi toh bahut kuch baaki hai forms mei bhi....
+
+Let's LEARN , GROW and EARN TOGETHER.....!!!!!!!!!
+
+Day07 Completed...!!!!!!
+.........
+.......
+....
+..
+.
