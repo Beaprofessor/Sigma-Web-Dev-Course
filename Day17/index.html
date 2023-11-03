@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: aqua;
+        }
+
+        /* Class Selectors */
+      .red{
+        background-color: red;
+      }
+
+      /* ID Selector */
+      #green{
+        background-color: green;
+      }
+
+      /* Child Selectors.. */
+      /* Agar div ka direct child hua toh tab hi karega ye bas.... */
+      div > p{
+        color: blanchedalmond;
+        background-color: black;
+      }
+
+      /* Descendent Selectors */
+      /* Yaha par kya scene hai na yaha par agar div mei kahi par bhi p tag hai toh wo usse bhi ye properties lagu kardegga.... */
+        div p{
+            color: blanchedalmond;
+            background-color: blue;
+        }
+        
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited{
+            color:yellow;
+        }
+
+        a:link{
+            color: aqua;
+        }
+
+       a:active{
+        background-color: red;
+       }
+
+       a:hover{
+        color: black;
+        background-color: aqua;
+       }
+       p:first-child{
+        background-color: aquamarine;
+       }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div>
+        I am a div.
+        <article>
+                <p>HEYYYYY I AM THE CHILD OF THIS DIV..</p>
+                <p>RE BAWLA HAI KE DIKHE KONI ??</p>
+        </article>
+    </div>
+
+    <div class="red">
+        Heyyy My color is Red.....
+    </div>
+    
+    <div id="green">
+       My color is Green
+    </div>
+    
+    <a href="https://facebook.com">Facebook Ajao</a>
+   <a href="https://instagram.com">Aajao Instagram par baat karte hai..</a>
+   <a href="https://google.com">Go to Google</a>
+
+
+</body>
+</html>
