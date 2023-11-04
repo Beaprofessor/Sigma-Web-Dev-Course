@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Sizing Unit</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html{
+        font-size: 12px;
+      }
+      .box {
+        box-sizing: border-box;
+        background-color: beige;
+        /* width: 1536px; */
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+        border: 2px solid black;
+      }
+      .container{
+        box-sizing: border-box;
+        background-color: beige;
+        /* width: 1536px; */
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        margin: 22px auto;
+        font-size: 18px;
+        border: 2px solid black;
+      }
+
+      .container p {
+        font-size: 2rem;
+      }
+      .mycont {
+        border: 2px solid black;
+        box-sizing: border-box;
+        margin: 22px auto;
+        background-color: aqua;
+        color: black;
+        /* width: 100vmin; */
+        width: 80vw;
+        /* height: 100vmin; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">This is a Box</div>
+    <div class="container">
+        <p>
+            Hey Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius fugit
+            harum quibusdam ipsa, ea facilis eos modi ullam totam sunt porro iste?
+        </p>
+     
+    </div>
+
+   <div class="mycont">
+    HEY Now I will take the command of the class.
+   </div>
+
+  </body>
+</html>
