@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display Properties</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        border: 2px solid red;
+        /* display: inline; This display property do not respect the width , padding margin from the top  so better to use the inline-block as of now...*/
+        display: inline-block;
+        width: 300px;
+        padding: 30px;
+        margin: 20px;
+      }
+
+      .box1{
+        /* display: none; */
+         /* This will to completely delete the element from the page */
+        visibility: hidden;
+         /*AND this one will only hide the element but will not remove the element space from the page...  */
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="box box1">Heyy I am new here...</div>
+    <div class="box">Heyy How are u doin haa??</div>
+
+    <span>
+        heyyy u there
+    </span>
+    <span>
+        Yea I am here.
+    </span>
+  </body>
+</html>
