@@ -1,0 +1,32 @@
+:root {
+    --color: rgb(0, 0, 0);
+    --pricolor:rgb(109, 215, 223);
+    --seccolor: rgb(185, 211, 187);
+    --bodycolor:rgb(95, 162, 162);
+  }
+body{
+background-color: var(--bodycolor);
+}
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    background-color: var(--color);
+   padding: 12px 0px;
+  }
+
+  ul li {
+   display: inline;
+    padding: 8px;
+    list-style: none;
+    margin: 30px;
+    border: 0px solid var(--seccolor);
+    border-radius: 16px;
+    color: beige;
+    font-weight: bolder;
+  }
+  ul li:hover{
+    background-color:var(--pricolor);
+    cursor: pointer;
+  }
