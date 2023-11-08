@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-5th</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        /* border: 2px solid black; */
+        background-color: rgb(234, 0, 255);
+      }
+      .nav {
+        /* border: 2px solid red; */
+        background-color: aqua;
+        /* margin: 2px; */
+        padding: 20px;
+        position: sticky;
+        top: 0;
+      }
+      ul li {
+        display: inline;
+        padding: 10px;
+        position: relative;
+        margin: 20px;
+      }
+      ul li:hover {
+        background-color: rgb(212, 130, 24);
+        border: 0px solid black;
+        border-radius: 16px;
+      }
+      ul li a {
+        text-decoration-line: none;
+        color: rgb(0, 15, 9);
+      }
+      .box {
+        /* border: 2px solid red; */
+        background-color: rgb(158, 232, 38);
+        display: flex;
+        /* margin: 2px; */
+        padding: 20px;
+        width: auto;
+        height: 80vh;
+        /* align-items: center; */
+        justify-items: center;
+      }
+      .box1 {
+        background-color: red;
+        width: 325px;
+        height: 300px;
+        margin: auto;
+      }
+      .box2 {
+        background-color: blueviolet;
+        margin: auto;
+        width: 325px;
+        height: 300px;
+      }
+
+      .message {
+        background-color: beige;
+        display: flex;
+        /* border: 2px solid rgb(135, 135, 20); */
+        height: 200px;
+        width: 850px;
+        margin: 30px 325px;
+        /* margin: auto; */
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 30px;
+      }
+      p {
+        font-size: 58px;
+        padding: 38px;
+        font-weight: bold;
+        font-style: italic;
+      }
+      .logo {
+        height: 18px;
+        width: 18px;
+        position: fixed;
+        bottom: 20px;
+        right: 23px;
+        background: #ff4d21;
+        border-radius: 18px;
+      }
+      footer {
+        background-color: black;
+        margin-top: 50px;
+        height: 40px;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">About us</a></li>
+          <li><a href="/">Contact</a></li>
+          <li><a href="/">Chat Support</a></li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+      </div>
+
+      <div class="message">
+        <p>Welcome to the Sigma Web Development Express</p>
+      </div>
+      <div class="logo"></div>
+      <footer></footer>
+    </div>
+  </body>
+</html>
