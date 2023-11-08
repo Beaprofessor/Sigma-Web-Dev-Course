@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More on CSS Selectors</title>
+    <style>
+      /* .box:first-child{
+        background-color: aquamarine;
+
+       } */
+
+      /* .box::first-line {
+        color: aqua;
+      } */
+
+      /* .boxes *{
+        color: red;
+        border: 2px solid black;
+      }
+
+
+      .box , [data-color="primary"]{
+                padding-top:50px;
+      } */
+
+      /* .box:nth-child(odd){
+        background-color: aqua;
+      } */
+
+      /* .box:nth-last-child(1){
+        background-color: aquamarine;
+      } */
+
+      /* CSS ke through  dynamically  insert kiya jaa sakta hai using the before and after property...*/
+      /* These are known as pseudo selectors... */
+      .boxes::before {
+        content: "Heyy bruh , what are u looking for ??";
+      }
+      .boxes::after {
+        content: "heyy do u know about the sigma batch ??";
+        color: aqua;
+        background-color: black;
+      }
+      ::selection{
+        color: purple;
+        background-color: black;
+      }
+
+      .box::first-letter{
+        color: blue;
+      }
+
+      input::placeholder{
+        color: rgb(214, 124, 6);
+        /* background-color: black; */
+        /* font-size: ; */
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div data-color="primary" class="box">Hey I am the first child</div>
+      <div class="box">Hey I am the second child</div>
+      <div class="box">Hey I am the third child</div>
+      <input type="text" placeholder="Heyy , fill it here............">
+    </div>
+  </body>
+</html>
