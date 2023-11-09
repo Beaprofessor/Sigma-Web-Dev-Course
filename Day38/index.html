@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        .container{
+            border: 2px solid blueviolet;
+            display: flex;
+            height: 80vh;
+            /* justify-content: center; */
+            align-items: center;
+            /* flex-direction: row; */
+            flex-wrap: wrap;
+            /* align-content: flex-start; */
+            /* flex-flow: row wrap-reverse; */
+            /* it is mainly using the flex direction and the flex wrap together at the same time.... */
+
+            /* gap: 30px; */
+            /* row-gap: 10px;
+            column-gap:20px; */
+            gap: 40px 10px;
+
+            /* Nowrap is a default property */
+            /* Align-items: ye tab use karna hai jab bas ek line ho */
+           /* Aur align-content: ye tab use jab ek  se jaada line ho.... */
+            /* There is no justify items in flexbox..... */
+
+
+/* Common-Mistake:: hamesha log container ki property item mei aur iska vice versa karte hai jo ki ni karna chahiye....
+Aur haa hamesha container ki property jaada use aati hai items se fir bhi dhyan rakho.. 
+*/
+        }
+
+        .item{
+            /* margin: 4px; */
+            height: 32px;
+            width: 32px;
+            background-color: aqua;
+            border: 2px solid black;
+            /* flex-grow: 1; */
+        }
+
+        .item1{
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+            /* Ye double speed se shrink hoga */
+            align-self: flex-start;
+        }
+
+        .item6{
+            align-self: flex-end;
+        }
+
+        /* Jitna jada order utna baad mei aayega and jitna kam hoga utna pehle aayega.... */
+        /* Default order: 0 hota hai  */
+
+        .order-1{
+            order: 1;
+        }
+
+        .order-2{
+            order: 2;
+        }
+        .order-3{
+            order: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="item item1">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item item6">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+
+            </div>
+    </main>
+    
+</body>
+</html>
