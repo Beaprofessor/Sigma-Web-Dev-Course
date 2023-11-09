@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <style>
+      .container {
+        border: 2px solid green;
+        display: grid;
+        width: 80vw;
+        height: 100vh;
+        /* grid-template-columns: 120px 100px; */
+        /* grid-template-rows: 100px 100px 100px; */
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns: repeat(4 , minmax(80px,1fr)); */
+        gap: 50px 10px;
+        justify-items: center;
+        align-items: center;
+
+        grid-template-columns: repeat(4 , 80px);
+        grid-template-rows: repeat(2 , 80px);
+        align-content: center;
+        justify-content: center;
+
+
+
+        /* grid-template-columns: repeat(4 , 40px); */
+        /* Jab bhi container bada hoga and grid choti hogi yoh align content and justify content ko use karenge....
+         So yaha par apan dekh sakte hai jab apan ne direct value di toh tab apne item container ke bahar chale gye... */
+        /* And aese scene mei justify content use karenge to prevent this type of mistakes.... */
+
+      }
+
+      .item {
+        border: 2px solid blue;
+        height: 55px;
+        width: 55px;
+      }
+      /* 
+        .item-1{
+              grid-row: 1/2;
+              grid-column: 1/2;
+        }
+        .item-4{
+            grid-row: 1/2;
+              grid-column: 1/2;
+        } */
+
+      .item-2 {
+        align-self: start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item-1">1</div>
+      <div class="item item-2">2</div>
+      <div class="item">3</div>
+      <div class="item item-4">4</div>
+      <div class="item">5</div>
+    </div>
+  </body>
+</html>
