@@ -1,0 +1,30 @@
+.container {
+    background-color: antiquewhite;
+    width: 50vw;
+    height: 40vh;
+}
+
+.box {
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+    /* transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+    transition: all 3s cubic-bezier(0, 0.49, 0.28, 1.03) 1s;
+    /* Well aese bhi likh sakte hai direct... */
+}
+
+/* Yaha par apan transiton property transform par use kar rhe hai...
+ Transition property 4 cheezon se milkr bani hoti hai 
+1.Transition-property
+2.Transition-duration
+3.transition-timinig-function
+4.transition-delay
+ */
+
+.translate {
+    transform: translateX(10vw) translateY(10vh);
+    background-color: black;
+}
