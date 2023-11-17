@@ -1,0 +1,16 @@
+.container {
+    height: 466px;
+    width: 488px;
+    border: 2px solid black;
+    /* background-image: url(https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D);
+    background-position: center center; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xle9FawD6aqnGXUtBXFtDQN_9IAXQnE4BnXYlwSqfZAu6tJNkaW9nOgnt88HtF76IPY&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+img{
+    height: 466px;
+    width: 488px;
+    object-fit:contain;
+}
