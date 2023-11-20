@@ -358,23 +358,23 @@ footer {
     }
 
 
-    
+
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
 
-.footer a {
-    font-size: 14px;
-    color: white;
-}
+    .footer a {
+        font-size: 14px;
+        color: white;
+    }
 
-.footer-item {
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
-}
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
 
 
 }
