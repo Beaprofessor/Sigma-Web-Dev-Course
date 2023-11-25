@@ -16,10 +16,11 @@ alert("Hello Guys");
  }
 
  console.log("Enter your number " +  a)
-console.log("")
 
 
 
 
 
 
+document.title = "Hey Bruh I am good!!!"
+document.body.style.backgroundColor = "red"
